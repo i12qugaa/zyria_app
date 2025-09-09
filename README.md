@@ -18,7 +18,8 @@ Aplicación móvil para la gestión de finanzas personales.
 
 ## 📂 Estructura del proyecto
 
-- lib/main.dart → inicializa la configuración y carga la vista principal.
+- lib/main.dart → Inicializa la configuración y carga la vista principal.
+- lib/bd → Base de datos y DAOs.
 - lib/views/ → Pantallas de la aplicación.
 - lib/controllers/ → Controladores de la lógica.
 - lib/models/ → Modelos de datos.
