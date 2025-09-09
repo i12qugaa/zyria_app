@@ -1,0 +1,24 @@
+# Ignorar archivos generados y temporales
+build/
+.dart_tool/
+.packages
+.pub-cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/google-services.json
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+Podfile.lock
+
+# Configuración sensible del proyecto
+lib/config.dart
