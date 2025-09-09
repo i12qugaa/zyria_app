@@ -1,16 +1,26 @@
-# finanzas_app
+# Zyria
 
-A new Flutter project.
+Aplicación móvil para la gestión de finanzas personales.  
 
-## Getting Started
+## ✨ Funcionalidades
+- Registro de ingresos , gastos y ahorros.
+- Gestión de categorías.
+- Gestión de activos y deudas.
+- Asesoramiento financiero mediante inteligencia artificial.
+- Copias de seguridad en Google Drive.
 
-This project is a starting point for a Flutter application.
+## 🛠 Tecnologías
+- Flutter / Dart
+- SQLite
+- Google Drive API
+- Gemini API
+- Finnhub API
 
-A few resources to get you started if this is your first Flutter project:
+## 📂 Estructura del proyecto
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- lib/main.dart → inicializa la configuración y carga la vista principal.
+- lib/views/ → Pantallas de la aplicación.
+- lib/controllers/ → Controladores de la lógica.
+- lib/models/ → Modelos de datos.
+- lib/widgets/ → Widgets reutilizables.
+- lib/themes/ → Configuración de temas.
